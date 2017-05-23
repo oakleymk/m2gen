@@ -1,0 +1,117 @@
+// Custom app code for M2GEN Front End Challenge [iTunes TopAlbums API]
+// Developer: Michael Oakley
+
+* {overflow:hidden;}
+html,body {width:100%;height:100%;}
+body {overflow-y:auto;}
+
+.bkg-silver {
+  background: rgb(246,248,249);
+  background: -moz-linear-gradient(top, rgba(246,248,249,1) 0%, rgba(229,235,238,1) 36%, rgba(215,222,227,1) 60%, rgba(245,247,249,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 36%,rgba(215,222,227,1) 60%,rgba(245,247,249,1) 100%);
+  background: linear-gradient(to bottom, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 36%,rgba(215,222,227,1) 60%,rgba(245,247,249,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=0 );
+}
+
+[m2genlogo]:before {
+  content:"\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0";
+  background-image:url(../images/m2gen.logo.png);background-size:contain;background-repeat:no-repeat;
+  -webkit-background-origin:border;
+}
+
+[ituneslogo]:before {
+  content:"\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0";
+  background-image:url(../images/itunes.logo.png);background-size:contain;background-repeat:no-repeat;
+  -webkit-background-origin:border;
+}
+
+.thumbnail {
+  width:60px;height:60px;
+  border:1px solid silver;
+  box-shadow:2px 3px 6px rgba(0,0,0,.2);
+}
+
+.big {font-size:180%;}
+a:link,a:hover,a:visited,a:active {text-decoration:none;}
+section {z-index:0;display:none;}
+hr {margin:1pt 0 6pt 0;}
+
+.media:nth-child(3n+3){
+  background:rgba(245,247,249,.5);
+}
+
+.tracksbox {
+  margin:0;padding:3pt;
+  background:rgba(150,150,150,.2);
+}
+.close {position:relative;top:-4pt;left:4pt;}
+
+.vcenter {
+  display:inline-block;
+  margin:0;padding:0;
+  height:100%;
+  width:0;
+  vertical-align:middle;
+}
+.hcenter {
+  display:inline-block;
+  margin:0;padding:0;
+  text-align:center;
+  vertical-align:middle;
+}
+
+.panel {
+  display:none;
+  position:absolute;
+  top:0;left:0;
+  width:100%;height:100%;
+  text-align:center;
+  pointer-events:none;
+  background:transparent;
+  z-index:3000;
+  overflow:hidden;
+}
+
+.spinner {
+  position:relative;
+  margin:100px auto;
+  width:100px;height:100px;
+  text-align:center;
+  -webkit-animation: sk-rotate 2.0s infinite linear;
+  animation: sk-rotate 2.0s infinite linear;
+  overflow:visible;
+}
+
+.dot1,.dot2 {
+  display: inline-block;
+  position:absolute;top:0;
+  width:50%;height:50%;
+  border-radius:50%;
+  background-color:rgba(100,100,255,.8);
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.dot2 {
+  top:auto;bottom:0;
+  -webkit-animation-delay:-1.0s;
+  animation-delay:-1.0s;
+}
+
+@-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
+@keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}

@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+  <head>
+    <title>M2GEN Front End Challenge</title>
+    <meta name="author" content="Michael Oakley">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+
+    <!-- Bootstrap & jquery CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Custom app code -->
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/app.js"></script>
+
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="jumbotron bkg-silver text-center" style="margin:0;padding:10pt;z-index:1000;">
+      <h2 class="text-primary" style="margin:0;padding:0;white-space:nowrap;"><span m2genlogo>&nbsp;</span><wbr>Front End Challenge</h2>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="20" style="top:0;left:0;width:100%;box-shadow: 0px 3px 8px rgba(0,0,0,.5);z-index:1000;">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <span class="navbar-brand big" style="color:white;white-space:nowrap;"><span ituneslogo>&nbsp;</span><wbr>Music Albums</span>
+        </div>
+        <ul class="nav navbar-nav">
+          <li id="nav_about"><a href="#"><strong>About</strong></a></li>
+          <li id="nav_results"><a href="#"><strong>Results</strong></a></li>
+        </ul>
+        <ul id="nav_options" class="nav navbar-nav navbar-right" style="display:none;">
+          <li id="nav_type">
+            <form class="navbar-form" action="javascript:void(0);">
+              <div class="form-group" style="margin:0 6pt;white-space:nowrap;">
+                <strong style="color:silver;">Display</strong>
+                <select id="nav_type_select" class="form-control">
+                  <option value="top" selected>Top Albums</option>
+                  <optgroup label="Search">
+                    <option value="mix">All</option>
+                    <option value="artist">Artist</option>
+                    <option value="album">Album</option>
+                    <option value="song">Song</option>
+                  </optgroup>
+                </select>
+                <select id="nav_limit_select" class="form-control">
+                  <option value=1>1</option>
+                  <option value=5>5</option>
+                  <option value=10 selected>10</option>
+                  <option value=50>50</option>
+                  <option value=100>100</option>
+                  </optgroup>
+                </select>
+                <div id="nav_search" class="input-group" style="display:none;">
+                  <input id="nav_search_input" type="text" class="form-control" placeholder="Search">
+                  <div class="input-group-btn"><button id="nav_submit" class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button></div>
+                </div>
+              </div>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- About -->
+    <section id="about" class="container">
+      <p>This code challenge allows you to choose your own path and lets you flaunt your creative panache and technical skills along the way. Get as much completed as you can, with the focus on functionality over design.</p>
+      <p>In a fictional world, we are branching into the music business and need a new a website. This website needs to display the top 100 songs based on the iTunes API.</p>
+      <h4 id="markdown-header-base-requirements-for-all-levels">Base Requirements For All Levels</h4>
+      <hr>
+      <ul>
+        <li>Show top 100 albums based on the json feed here:  <a href="https://itunes.apple.com/us/rss/topalbums/limit=100/json" rel="nofollow">https://itunes.apple.com/us/rss/topalbums/limit=100/json</a></li>
+        <li>A clean modern look</li>
+        <li>Clean, readable, maintainable codebase</li>
+        <li>Source code on Github or Bitbucket</li>
+        <li>Cross browser support (or graceful degradation) </li>
+        <li>Responsive design and implementation</li>
+        <li>A good user experience</li>
+      </ul><br>
+      <h4 id="markdown-header-levels-of-awesome">Levels of Awesome</h4>
+      <p>Choose one of the following routes for your journey.</p>
+      <hr>
+      <h3 id="markdown-header-novice">Novice</h3>
+      <p><em>"Hey! Look! Listen!"</em></p>
+      <p><strong>TASKS</strong> * All of the base requirements + Create and implement (using HTML, CSS and JS) a basic design + Use a CSS Framework (Bootstrap, Foundation, Pure, etc.…)</p>
+      <hr>
+      <h3 id="markdown-header-intermediate">Intermediate</h3>
+      <p><em>"I know Kung Fu."</em></p>
+      <p><strong>TASKS</strong> * All of the base, and novice requirements + Use a JavaScript framework (React, Backbone, etc...) + Use SASS or LESS for custom CSS + Make use of CSS animations</p>
+      <hr>
+      <h3 id="markdown-header-expert">Expert</h3>
+      <p><em>"Watch and learn Grasshopper."</em></p>
+      <p><strong>TASKS</strong>
+      <em> All of the base, novice, and intermediate requirements + Allow the top 100 to be searchable + Allow the user to see more information about a selected Album + Host the website on the service of your choice (We enjoy cloud hosting like AWS, but we would also settle for a </em>.github.io address)</p>
+      <hr>
+      <h3 id="markdown-header-bonus-round">Bonus Round</h3>
+      <p><em>"All is fair in love and bonus rounds"</em></p>
+      <p><strong>TASKS</strong> + Surprise us! Add a feature that you think would work well here (for instance, advanced search, integration with other API, a "Favorite" functionality) + <strong>Show us your work through your commit history!</strong></p>
+    </section>
+
+    <!-- Results -->
+    <section id="results" class="container"></section>
+
+    <!-- Spinner -->
+    <div id="spinnerPanel" class="panel">
+      <div class="vcenter"></div><div class="hcenter" style="height:200px;width:200px;pointer-events:none;">
+        <div class="spinner"><div class="dot1"></div><div class="dot2"></div></div>
+      </div>
+    </div>
+
+  </body>
+</html>

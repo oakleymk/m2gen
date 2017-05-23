@@ -1,0 +1,69 @@
+category: Object
+	attributes: Object
+		im:id: "14"
+		label: "Pop"
+		scheme: "https://itunes.apple.com/us/genre/music-pop/id14?uo=2"
+		term: "Pop"
+
+id: Object
+	attributes: Object
+		im:id: "1226034336"
+	label: "https://itunes.apple.com/us/album/harry-styles/id1226034336?uo=2"
+
+im:artist: Object
+	attributes: Object
+		href: "https://itunes.apple.com/us/artist/harry-styles/id471260289?uo=2"
+	label: "Harry Styles"
+
+im:contentType: Object
+	attributes: Object
+		label: "Music"
+		term: "Music"
+	im:contentType: Object
+		attributes: Object
+			label: "Album"
+			term: "Album"
+
+im:image: Array(3)
+	0: Object
+		attributes: Object
+			height: "55"
+		label: "http://is3.mzstatic.com/image/thumb/Music122/v4/f8/e3/d4/f8e3d40b-aee6-808d-7554-15879617581f/886446451978.jpg/55x55bb-85.jpg"
+	1: Object
+		attributes: Object
+			height: "60"
+		label: "http://is4.mzstatic.com/image/thumb/Music122/v4/f8/e3/d4/f8e3d40b-aee6-808d-7554-15879617581f/886446451978.jpg/60x60bb-85.jpg"
+	2: Object
+		attributes: Object
+			height: "170"
+		label: "http://is4.mzstatic.com/image/thumb/Music122/v4/f8/e3/d4/f8e3d40b-aee6-808d-7554-15879617581f/886446451978.jpg/170x170bb-85.jpg"
+	length: 3
+
+im:itemCount: Object
+	label: "10"
+
+im:name: Object
+	label: "Harry Styles"
+
+im:price: Object
+	attributes: Object
+		amount: "9.99000"
+		currency: "USD"
+	label: "$9.99"
+
+im:releaseDate: Object
+	attributes: Object
+		label: "May 12, 2017"
+	label: "2017-05-12T00:00:00-07:00"
+
+link: Object
+	attributes: Object
+		href: "https://itunes.apple.com/us/album/harry-styles/id1226034336?uo=2"
+		rel: "alternate"
+		type: "text/html"
+
+rights: Object
+	label: "℗ 2017 Erskine Records Limited, under exclusive license to Columbia Records, a Division of Sony Music Entertainment"
+
+title: Object
+	label: "Harry Styles - Harry Styles"

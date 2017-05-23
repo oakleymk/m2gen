@@ -1,0 +1,31 @@
+artistId:50526
+artistName:"Rush"
+artistViewUrl:"https://itunes.apple.com/us/artist/rush/id50526?uo=4"
+artworkUrl30:"http://is4.mzstatic.com/image/thumb/Music/v4/d5/70/d1/d570d17a-de83-b9ca-80ce-4dcf3ab31e0a/source/30x30bb.jpg"
+artworkUrl60:"http://is4.mzstatic.com/image/thumb/Music/v4/d5/70/d1/d570d17a-de83-b9ca-80ce-4dcf3ab31e0a/source/60x60bb.jpg"
+artworkUrl100:"http://is4.mzstatic.com/image/thumb/Music/v4/d5/70/d1/d570d17a-de83-b9ca-80ce-4dcf3ab31e0a/source/100x100bb.jpg"
+collectionCensoredName:"Moving Pictures (Remastered)"
+collectionExplicitness:"notExplicit"
+collectionId:643419092
+collectionName:"Moving Pictures (Remastered)"
+collectionPrice:9.99
+collectionViewUrl:"https://itunes.apple.com/us/album/tom-sawyer/id643419092?i=643419201&uo=4"
+country:"USA"
+currency:"USD"
+discCount:1
+discNumber:1
+isStreamable:true
+kind:"song"
+previewUrl:"http://a219.phobos.apple.com/us/r30/Music2/v4/4b/a1/aa/4ba1aa72-a6f5-4ac3-1b66-ca747aa490f8/mzaf_4660742303953455851.aac.m4a"
+primaryGenreName:"Rock"
+releaseDate:"1981-02-12T08:00:00Z"
+trackCensoredName:"Tom Sawyer"
+trackCount:7
+trackExplicitness:"notExplicit"
+trackId:643419201
+trackName:"Tom Sawyer"
+trackNumber:1
+trackPrice:1.29
+trackTimeMillis:276880
+trackViewUrl:"https://itunes.apple.com/us/album/tom-sawyer/id643419092?i=643419201&uo=4"
+wrapperType:"track"

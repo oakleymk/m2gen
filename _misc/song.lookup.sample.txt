@@ -1,0 +1,31 @@
+artistId: 471260289
+artistName: "Harry Styles"
+artistViewUrl: "https://itunes.apple.com/us/artist/harry-styles/id471260289?uo=4"
+artworkUrl30: "http://is4.mzstatic.com/image/thumb/Music111/v4/b2/fe/66/b2fe6680-b4e3-662c-bd57-004a066146fa/source/30x30bb.jpg"
+artworkUrl60: "http://is4.mzstatic.com/image/thumb/Music111/v4/b2/fe/66/b2fe6680-b4e3-662c-bd57-004a066146fa/source/60x60bb.jpg"
+artworkUrl100: "http://is4.mzstatic.com/image/thumb/Music111/v4/b2/fe/66/b2fe6680-b4e3-662c-bd57-004a066146fa/source/100x100bb.jpg"
+collectionCensoredName: "Harry Styles"
+collectionExplicitness: "notExplicit"
+collectionId: 1226034336
+collectionName: "Harry Styles"
+collectionPrice: 9.99
+collectionViewUrl: "https://itunes.apple.com/us/album/meet-me-in-the-hallway/id1226034336?i=1226034389&uo=4"
+country: "USA"
+currency: "USD"
+discCount: 1
+discNumber: 1
+isStreamable: true
+kind: "song"
+previewUrl: "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview122/v4/1d/b5/76/1db57692-317a-9d61-552e-d414e6ffe4db/mzaf_1063380316497487644.plus.aac.p.m4a"
+primaryGenreName: "Pop"
+releaseDate: "2017-05-12T07:00:00Z"
+trackCensoredName: "Meet Me in the Hallway"
+trackCount: 10
+trackExplicitness: "notExplicit"
+trackId: 1226034389
+trackName: "Meet Me in the Hallway"
+trackNumber: 1
+trackPrice: 1.29
+trackTimeMillis: 227200
+trackViewUrl: "https://itunes.apple.com/us/album/meet-me-in-the-hallway/id1226034336?i=1226034389&uo=4"
+wrapperType: "track"
